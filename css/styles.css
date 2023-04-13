@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+
+.icon {
+    font-size: 50px;
+    display: block;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 40px;
+    color: white;
+}
+
+.logo-text>h1 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 40px;
+    color: white;
+}
+
+.icon-text>p {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.profile-picture {
+    width: 65px;
+    margin: 0 20px;
+}
+
+.list-items-bottom {
+    margin-top: 50px;
+}
+
+.main {
+    background-color: #eee;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header {
+background-color: #eee;
+display: flex;
+flex-direction: column;
+}
+
+.navbar,
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.form-input {
+    width: 500px;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.avatarNavbar {
+    margin: 0 20px;
+    width: 50px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: #0ea5e9;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+}
+
+.content {
+    background: #d4d4d4;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
