@@ -2,7 +2,7 @@
 
 > An admin dashboard built using CSS flexbox, typography and semantic html.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./dema-admin-dashboard.netlify.app_.png)
 
 ## Built With
 
@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dema-admin-dashboard.netlify.app/)
 
 ### Development (Running locally)
 
