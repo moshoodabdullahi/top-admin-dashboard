@@ -1,27 +1,33 @@
-# Project Name
+# TOP ADMIN DASHBOARD
 
-> One paragraph statement about the project.
+> An admin dashboard built using CSS flexbox, typography and semantic html.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./dema-admin-dashboard.netlify.app_.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 form elements
+  - `article`, `img`, `button`, `ìnput`.
+- CSS properties
+  - CSS Variables for reusable CSS values,
+  - CSS Flexbox such as `flex-direction`, `justify-content` and so on
+  - Typography such as `font-size`, `font-family` and so on,
+  - CSS Background for page aesthetic using `background-color`, `background`.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dema-admin-dashboard.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/top-admin-dashboard.git
 ```
 
 - Install Dependencies
@@ -64,7 +70,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
@@ -84,9 +89,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [TheOdinProject: Sign-up Form](https://www.theodinproject.com/lessons/intermediate-html-and-css-sign-up-form)
 
 ## 📝 License
 

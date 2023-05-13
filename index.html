@@ -2,11 +2,262 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Admin Dashboard</title>
   </head>
+
   <body>
-    <h1>Hello!</h1>
+    <div class="hero">
+      <nav class="nav-bar">
+        <div class="logo-text">
+          <img src="image/view-dashboard-custom.png" alt="dashboard" />
+          <h1>Dashboard</h1>
+        </div>
+
+        <ul class="list-items">
+          <li class="icon-text">
+            <img src="image/home-custom.png" alt="home" />
+            <p><strong>Home</strong></p>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/card-account-details-custom.png" alt="card" />
+            <p><strong>Profile</strong></p>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/message-reply-custom.png" alt="message" />
+            <p><strong>Messages</strong></p>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/clock-time-three-custom.png" alt="clock" />
+            <p><strong>History</strong></p>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/file-multiple-custom.png" alt="file" />
+            <p><strong>Tasks</strong></p>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/account-group-custom.png" alt="people" />
+            <p><strong>Communities</strong></p>
+          </li>
+
+          <li class="list-items-bottom">
+            <div class="icon-text">
+              <img src="image/cog-custom.png" alt="settings" />
+              <p><strong>Settings</strong></p>
+            </div>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/help-box-custom.png" alt="question mark" />
+            <p><strong>Support</strong></p>
+          </li>
+
+          <li class="icon-text">
+            <img src="image/shield-check-custom.png" alt="shield" />
+            <p><strong>Privacy</strong></p>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main">
+        <div class="header">
+          <div class="navbar">
+            <div class="input-sidebar">
+              <img class="search-icon" src="image/magnify-custom.png" alt="search" />
+              <input type="text" class="form-input" />
+            </div>
+            <div class="image-sidebar">
+              <img src="bell-ring-outline-custom-image.png" alt="notification" />
+              <img class="avatarnavbar" src="image/pngegg.png" alt="Profile Picture" />
+              <h5>Morgan Oakley</h5>
+            </div>
+          </div>
+          <div class="welcome">
+            <div class="left">
+              <img class="profile-picture" src="image/pngegg.png" alt="profile-picture" />
+              <div class="welcome-text">
+                <p>Hi there,</p>
+                <h3>Morgan Oakley (@morgan)</h3>
+              </div>
+            </div>
+            <div class="right">
+              <button class="btn">New</button>
+              <button class="btn">Upload</button>
+              <button class="btn">Share</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="projects">
+            <h4 class="project-text">Your Projects</h4>
+            <div class="cards">
+              <article class="card">
+                <div class="project-card">
+                  <h6>Super Cool Projects</h6>
+                  <p>
+                    Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id
+                    facilisis felis accumsan nec.
+                  </p>
+                </div>
+                <div id="project-icons" class="icons">
+                  <img src="image/star-plus-outline-custom.png" alt="Star" />
+                  <img src="image/eye-plus-outline-custom.png" alt="Eye" />
+                  <img src="image/source-fork-custom.png" alt="Fork" />
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="project-card">
+                  <h6>Impossible App</h6>
+                  <p>
+                    In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit
+                    sagittis id.
+                  </p>
+                </div>
+                <div id="project-icons" class="icons">
+                  <img src="image/star-plus-outline-custom.png" alt="Star" />
+                  <img src="image/eye-plus-outline-custom.png" alt="Eye" />
+                  <img src="image/source-fork-custom.png" alt="Fork" />
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="project-card">
+                  <h6>Ad Blocker</h6>
+                  <p>
+                    Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra
+                    hendrerit felis. Aliquam sed malesuada eros.
+                  </p>
+                </div>
+                <div id="project-icons" class="icons">
+                  <img src="image/star-plus-outline-custom.png" alt="Star" />
+                  <img src="image/eye-plus-outline-custom.png" alt="Eye" />
+                  <img src="image/source-fork-custom.png" alt="Fork" />
+                </div>
+              </article>
+
+              <article class="card">
+                <div id="project-icons" class="project-card">
+                  <h6>Less Cool Project</h6>
+                  <p>
+                    Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor
+                    tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut
+                    sapien in, varius pellentesque lacus.
+                  </p>
+                </div>
+                <div class="icons">
+                  <img src="image/star-plus-outline-custom.png" alt="Star" />
+                  <img src="image/eye-plus-outline-custom.png" alt="Eye" />
+                  <img src="image/source-fork-custom.png" alt="Fork" />
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="project-card">
+                  <h6>Easy Peasy App</h6>
+                  <p>
+                    Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget
+                    accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna
+                    tincidunt.
+                  </p>
+                </div>
+                <div id="project-icons" class="icons">
+                  <img src="image/star-plus-outline-custom.png" alt="Star" />
+                  <img src="image/eye-plus-outline-custom.png" alt="Eye" />
+                  <img src="image/source-fork-custom.png" alt="Fork" />
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="project-card">
+                  <h6>Money Maker</h6>
+                  <p>
+                    Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac
+                    scelerisque tortor purus sit amet ex. pellentesquemollis nec sem vel aliquam.
+                  </p>
+                </div>
+                <div id="project-icons" class="icons">
+                  <img src="image/star-plus-outline-custom.png" alt="Star" />
+                  <img src="image/eye-plus-outline-custom.png" alt="Eye" />
+                  <img src="image/source-fork-custom.png" alt="Fork" />
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="ann-trend">
+            <div class="ann">
+              <h4 class="anno-text">Announcements</h4>
+              <div class="ann-card">
+                <div class="ann-text">
+                  <h6>Site Maintenance</h6>
+                  <p>
+                    Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec
+                    hendrerit sodales congue...
+                  </p>
+                </div>
+                <div class="divider"></div>
+                <div class="ann-text">
+                  <h6>Community Share Day</h6>
+                  <p>
+                    Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum
+                    accumsan porttitor...
+                  </p>
+                </div>
+                <div class="divider"></div>
+                <div class="ann-text">
+                  <h6>Updated Privacy Policy</h6>
+                  <p>
+                    Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor.
+                    Cras fringilla sagittis sem in mattis...
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="trend">
+              <h4 class="trendi-text">Trending</h4>
+              <ul class="trend-card">
+                <li class="trend-image-text">
+                  <img class="trend-profile" src="image/pngegg.png" alt="Animate Profile" />
+                  <div class="trend-text">
+                    <h6>@legan</h6>
+                    <p>World Peace Builder</p>
+                  </div>
+                </li>
+                <li class="trend-image-text">
+                  <img class="trend-profile" src="image/pngegg.png" alt="Animate Profile" />
+                  <div class="trend-text">
+                    <h6>@morgan</h6>
+                    <p>Super Cool Project</p>
+                  </div>
+                </li>
+                <li class="trend-image-text">
+                  <img class="trend-profile" src="image/pngegg.png" alt="Animate Profile" />
+                  <div class="trend-text">
+                    <h6>@kendall</h6>
+                    <p>Life Changing App</p>
+                  </div>
+                </li>
+                <li class="trend-image-text">
+                  <img class="trend-profile" src="image/pngegg.png" alt="Animate Profile" />
+                  <div class="trend-text">
+                    <h6>@alex</h6>
+                    <p>No Traffic Maker</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
